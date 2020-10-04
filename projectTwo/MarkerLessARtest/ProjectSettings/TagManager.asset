@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - lb_perchTarget
+  - cardinal
+  - goldfinch
+  - bluejay
+  - robin
   layers:
   - Default
   - TransparentFX
