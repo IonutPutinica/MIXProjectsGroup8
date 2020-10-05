@@ -9,6 +9,10 @@ TagManager:
   - goldfinch
   - bluejay
   - robin
+  - lb_groundTarget
+  - crow
+  - sparrow
+  - chickadee
   layers:
   - Default
   - TransparentFX
