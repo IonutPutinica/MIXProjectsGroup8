@@ -214,8 +214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
+  m_AutoFocus: 1
+  m_LightEstimation: 0
+  m_FacingDirection: 1
 --- !u!114 &26534061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AttemptUpdate: 1
   m_MatchFrameRate: 1
+  m_TrackingMode: 2
 --- !u!4 &179623339
 Transform:
   m_ObjectHideFlags: 0
@@ -542,6 +546,8 @@ GameObject:
   - component: {fileID: 1735863011}
   - component: {fileID: 1735863010}
   - component: {fileID: 1735863012}
+  - component: {fileID: 1735863013}
+  - component: {fileID: 1735863014}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -591,6 +597,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 6952988002353747707, guid: d6b9d6464de702942b85625d29dd188d, type: 3}
   m_DetectionMode: 1
+--- !u!114 &1735863013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735863009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: 22da8b01b7096314185a9fea795b4c70, type: 2}
+  m_MaxNumberOfMovingImages: 7
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1735863014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735863009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0663842015f066c4296c939b5a67b7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _placeablePrefabs:
+  - {fileID: 8119771697150977905, guid: cc0be6e672f303c49abab76015d420b8, type: 3}
+  - {fileID: 3406954032109918297, guid: 012cef44558cefb4c87f1238172a7f4f, type: 3}
+  - {fileID: 7301282679092001109, guid: b54040ce683c98946875deeb73b240c8, type: 3}
+  - {fileID: 8463748005699473183, guid: 543a09d928b43b54b8d0813662d6ae13, type: 3}
+  - {fileID: 7238772779138726779, guid: 58733e47808523c47ab4a2b86ab6dbf8, type: 3}
+  - {fileID: 8057062925290018966, guid: 10c6d0bbc24643740acb806860a4e88e, type: 3}
+  - {fileID: 3391646370231893436, guid: 250934f32e4e63941988fee7028989b1, type: 3}
 --- !u!1001 &2135020718
 PrefabInstance:
   m_ObjectHideFlags: 0
