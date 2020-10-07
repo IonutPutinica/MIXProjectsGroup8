@@ -136,6 +136,8 @@ GameObject:
   - component: {fileID: 26534061}
   - component: {fileID: 26534060}
   - component: {fileID: 26534059}
+  - component: {fileID: 26534063}
+  - component: {fileID: 26534064}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -240,6 +242,27 @@ Transform:
   m_Father: {fileID: 1735863011}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 17.1, y: 0, z: 0}
+--- !u!81 &26534063
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26534057}
+  m_Enabled: 1
+--- !u!114 &26534064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26534057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18719b3e171943d4980d3cf50b9254ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 2135020719}
 --- !u!1 &179623336
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,3 +652,8 @@ PrefabInstance:
       objectReference: {fileID: 26534058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
+--- !u!1 &2135020719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
+  m_PrefabInstance: {fileID: 2135020718}
+  m_PrefabAsset: {fileID: 0}
