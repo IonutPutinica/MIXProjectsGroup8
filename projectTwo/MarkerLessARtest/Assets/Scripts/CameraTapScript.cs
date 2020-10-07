@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraTapScript : MonoBehaviour
-{  
+{
     //BirdDespawn birdData;
+    BirdSpawnFX effects;
     Ray ray;
     RaycastHit hit;
     
@@ -14,6 +15,7 @@ public class CameraTapScript : MonoBehaviour
     void Awake()
     {
         //birdData = FindObjectOfType<BirdDespawn>();
+        effects = FindObjectOfType<BirdSpawnFX>();
     }
 
     // Update is called once per frame
@@ -27,7 +29,7 @@ public class CameraTapScript : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 CheckPerch();
-
+                Debug.Log(hit.transform);
                 //string tap = hit.transform.tag;
                 //birdData.CheckPerch(tap, hit);
 
@@ -51,7 +53,7 @@ public class CameraTapScript : MonoBehaviour
         switch (cubeClicked)
         {
             case "cardinal":
-                Debug.Log("red perch");
+                effects.SpawnFX(hit.transform);
                 GameObject instanceCard = Instantiate(Resources.Load("lb_cardinalHQ"), hit.point,
                     Quaternion.Euler(0, 180, 0)) as GameObject;
                 StartCoroutine(Despawn(instanceCard));
@@ -103,6 +105,7 @@ public class CameraTapScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         Debug.Log("Destroying " + instance.name);
+        effects.DespawnFX(instance);
         Destroy(instance);
 
     }
