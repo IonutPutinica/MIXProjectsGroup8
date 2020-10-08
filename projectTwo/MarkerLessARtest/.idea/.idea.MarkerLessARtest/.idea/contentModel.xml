@@ -51,6 +51,11 @@
           <e p="CameraTapScript.cs" t="Include" />
           <e p="CubeScript.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="StefanScripts" t="Include">
+            <e p="I_Interactive.cs" t="Include" />
+            <e p="Interactive.cs" t="Include" />
+            <e p="InteractRay.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
