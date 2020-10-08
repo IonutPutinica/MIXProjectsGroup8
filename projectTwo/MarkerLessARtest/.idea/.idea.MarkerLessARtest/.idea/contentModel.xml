@@ -4,12 +4,34 @@
     <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MarkerLessARtest.323557105.00" t="ExcludeRecursive" />
     <e p="C:\Users\andre\OneDrive\Documents\Denmark University\6th Semester\MIX\MIXProjectsGroup8\projectTwo\MarkerLessARtest" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Editor" t="Include">
           <e p="Migration" t="Include">
             <e p="AddVuforiaEnginePackage.cs" t="Include" />
             <e p="EditorMigrationScripts.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX" t="Include">
+            <e p="CartoonFX Free.txt" t="Include" />
+            <e p="scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_AutoRotate.cs" t="Include" />
+              <e p="CFX_LightFlicker.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CFX3 Multiply Color.shader" t="Include" />
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="living birds" t="Include">
@@ -25,6 +47,7 @@
         <e p="scripts" t="Include">
           <e p="ARcameraTapScript.cs" t="Include" />
           <e p="BirdDespawn.cs" t="Include" />
+          <e p="BirdSpawnFX.cs" t="Include" />
           <e p="CameraTapScript.cs" t="Include" />
           <e p="CubeScript.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
