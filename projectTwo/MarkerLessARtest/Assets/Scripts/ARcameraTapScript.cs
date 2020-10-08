@@ -89,7 +89,7 @@ public class ARcameraTapScript : MonoBehaviour
 
     private IEnumerator Despawn(GameObject instance)
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(30f);
         //Debug.Log("Destroying " + instance.name);
         effects.DespawnFX(instance);
         Destroy(instance);
