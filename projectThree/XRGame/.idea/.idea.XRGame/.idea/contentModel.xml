@@ -27,6 +27,7 @@
             </e>
           </e>
         </e>
+        <e p="ContinuousMovement.cs" t="Include" />
         <e p="HandPresence.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AudioManagerScript.cs" t="Include" />
