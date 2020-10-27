@@ -2853,7 +2853,7 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 7811358858880973562, guid: ebf57ec2161203b448b015696b387834, type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
@@ -10253,7 +10253,7 @@ MonoBehaviour:
   m_System: {fileID: 0}
   m_TurnUsage: 0
   m_Controllers:
-  - {fileID: 2013263277}
+  - {fileID: 250333321}
   m_TurnAmount: 45
   m_DebounceTime: 0.2
   m_DeadZone: 0.75
@@ -12627,7 +12627,7 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 7811358858880973562, guid: 50ba5168883c123459c8e7fa396badc2, type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
