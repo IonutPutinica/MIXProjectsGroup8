@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c0b7daa-a8db-4f6e-bd5b-786dadc63ebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/ContinuousMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/HandPresence.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +103,7 @@
       <workItem from="1603475358639" duration="8229000" />
       <workItem from="1603529857067" duration="1652000" />
       <workItem from="1603815556607" duration="855000" />
+      <workItem from="1603973882509" duration="1461000" />
     </task>
     <servers />
   </component>
@@ -124,5 +126,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="109" width="785" height="880" key="VCS.FileHistoryDialog" timestamp="1603975174379">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="309" y="109" width="785" height="880" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603975174379" />
   </component>
 </project>
