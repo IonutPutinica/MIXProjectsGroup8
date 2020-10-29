@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7811358858880973562}
   - component: {fileID: 5197543463204565156}
   m_Layer: 0
-  m_Name: LeftHand Presence 1
+  m_Name: LeftHand Presence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,4 +46,3 @@ MonoBehaviour:
   controllerCharacteristics: 320
   controllerPrefabs:
   - {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606, type: 3}
-  - {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46, type: 3}
