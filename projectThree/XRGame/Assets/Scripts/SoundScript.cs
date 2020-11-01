@@ -9,7 +9,12 @@ public class SoundScript  //The MonoBehavior was deleted for a reason.  This is 
     public string name;
     public AudioClip clip;
 
+    [Range(0f, 1f)]
+    public float volume;
+    public bool loop;
+
+    [HideInInspector]
+    public AudioSource source;
     // This class is used to define and expose AudioClip attributes in the Audio Manager.
     // Add attributes such as volume, range, etc as needed.
-    // I already added name and clip because we need those at the very least. XD
 }

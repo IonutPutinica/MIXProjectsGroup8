@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -27,14 +28,16 @@ public class AudioManagerScript : MonoBehaviour
         foreach (SoundScript singleSound in sounds)
         {
             // Expose the necessary attributes here.  Nothing here yet though. :(
+            singleSound.source = gameObject.AddComponent<AudioSource>();
+            singleSound.source.clip = singleSound.clip;
+            singleSound.source.volume = singleSound.volume;
+            singleSound.source.loop = singleSound.loop;
         }
     }
 
     public void Play(string name)
     {
         //Goes through the array of SoundScript and finds the sounds by name.
-        //The code is commented because the array is empty and throws errors.  We aren't using it yet.
-        /*
         SoundScript s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
@@ -42,13 +45,12 @@ public class AudioManagerScript : MonoBehaviour
             return;
         }
         s.source.Play();
-        */
     }
 
     // Start is called before the first frame update
     void Start()
     {
         //We can put background music here and it will play from this Game Object.
-        //For example: Play("BackgroundMusic"); 
+        Play("Background Music(Calm)"); 
     }
 }
