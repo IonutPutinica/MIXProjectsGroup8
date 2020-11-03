@@ -6,10 +6,11 @@ public class LargeImpactFX : MonoBehaviour
 {
     //The audio played here is tied to a particular game object
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if(other.gameObject)
+        if (collision.gameObject)
         {
+            Debug.Log("COLLISION DETECTED!");
             AudioManagerScript.instance.Play("LargeObjectHit");
         }
     }
