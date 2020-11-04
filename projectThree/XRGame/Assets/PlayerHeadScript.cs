@@ -27,8 +27,8 @@ public class PlayerHeadScript : MonoBehaviour
         if (health <= 0)
         {
             soundManager.GetComponent<AudioManagerScript>().Stop("Background Music(Calm)");
-            soundManager.GetComponent<AudioManagerScript>().Play("BackgroundMusic(Dead)");
             gameOverText.GetComponent<MeshRenderer>().enabled = true; // makes that text visible
+            gameOverText.GetComponent<AudioSource>().enabled = true;
         }
     }
 }
