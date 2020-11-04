@@ -11,22 +11,42 @@ public class EnemyScript : MonoBehaviour
     public GameObject player;
     public int maxHealth;
     private int currentHealth;
-    public float speed;
+    public float force;
+    public GameObject scoreBoard;
+    double savedTime;
+    public GameObject head;
+    public float maxForce;
+    public float maxSpeed;
+    public float floatForce;
 
     private void chasePlayer()
     {
         transform.LookAt(player.transform.position);
 
-        if (Vector3.Distance(transform.position, player.transform.position) >= 1)
+        if (Vector3.Distance(transform.position, player.transform.position) >= 0.5f) //if distance between is greater than 
         {
 
-            transform.position += transform.forward * speed * Time.deltaTime;
+            //transform.position += transform.forward * speed * Time.deltaTime;
+            //head.transform.LookAt(player.transform.position);
+            if (GetComponent<Rigidbody>().velocity.magnitude <= maxSpeed)
+            {
+                GetComponent<Rigidbody>().AddForce(transform.forward * force * Time.deltaTime);
+            }
+            float mass = GetComponent<Rigidbody>().mass;
+            GetComponent<Rigidbody>().AddForce(Vector3.up * floatForce * Time.deltaTime * Random.Range(0.9f, 1.1f));
         }
+    }
+
+    private void getHurt()
+    {
+        currentHealth--;
+        scoreBoard.GetComponent<Scoreboard>().addScore(50);
     }
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        savedTime = Time.fixedTime;
     }
 
     // Update is called once per frame
@@ -34,12 +54,30 @@ public class EnemyScript : MonoBehaviour
     {
         if(currentHealth <= 0)
         {
+            Destroy(head);
             Destroy(this);
             // do something to tell player he won and killed the baddie I guess
         }
         else
         {
             chasePlayer();
+            if(force < maxForce || maxForce <= 0) // if maxSpeed is 0 or less theres no limit
+            {
+
+                force += (float)(force * 0.05 * Time.deltaTime); //the boi gets faster
+            }
+            
+
+            if(savedTime - Time.fixedTime <= -10) // every 10 seconds
+            {
+                scoreBoard.GetComponent<Scoreboard>().addScore(10); // add 10 to score
+
+                GetComponent<Rigidbody>().AddExplosionForce(force * 2, transform.position - transform.forward * 2, 10);//gets a forward boost
+
+                GetComponent<Rigidbody>().AddExplosionForce(force * 2, transform.position - transform.up * 1.2f, 10);
+
+                savedTime = Time.fixedTime;
+            }
         }
     }
 }
