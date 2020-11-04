@@ -28553,7 +28553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2109740956794799695, guid: b85c5f70934f42d45bf841916ff8564a, type: 3}
       propertyPath: sounds.Array.data[1].playOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2109740956794799695, guid: b85c5f70934f42d45bf841916ff8564a, type: 3}
       propertyPath: sounds.Array.data[0].playOnAwake

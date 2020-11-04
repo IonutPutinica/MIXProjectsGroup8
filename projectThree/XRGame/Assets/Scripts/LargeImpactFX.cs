@@ -6,7 +6,7 @@ public class LargeImpactFX : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject)
+        if (collision.gameObject && collision.gameObject.tag != "Floor")
         {
             Debug.Log("LARGE COLLISION DETECTED!");
             AudioManagerScript.instance.Play("LargeObjectHit");
