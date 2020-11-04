@@ -1093,7 +1093,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84802485}
-  m_Text: YOU LOOSE
+  m_Text: YOU LOSE
   m_OffsetZ: 0
   m_CharacterSize: 0.65
   m_LineSpacing: 1
