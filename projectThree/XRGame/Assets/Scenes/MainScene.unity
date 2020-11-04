@@ -1703,7 +1703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1af79fca2816e8d4fb1e1a2f14ccdd56, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.82
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1af79fca2816e8d4fb1e1a2f14ccdd56, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5019,9 +5019,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf_04_snaps001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1844781713210790, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1930802
+      value: 2.36
       objectReference: {fileID: 0}
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5029,7 +5033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.75
+      value: 0.766
       objectReference: {fileID: 0}
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6577,7 +6581,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0bc9ea546d07b3e43848dd96afbd2b69, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.28
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -11077,7 +11081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2118623212}
-  maxHealth: 1
+  maxHealth: 7
   force: 1000
   scoreBoard: {fileID: 764697570}
   head: {fileID: 473938673}
@@ -11092,7 +11096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725195981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.28, y: 0.73, z: 19.79}
+  m_LocalPosition: {x: 6.28, y: 0.73, z: 2.94}
   m_LocalScale: {x: 0.35139, y: 0.35139, z: 0.35139}
   m_Children:
   - {fileID: 101493319}

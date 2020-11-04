@@ -40,6 +40,7 @@ public class PlayerHeadScript : MonoBehaviour
             soundManager.GetComponent<AudioManagerScript>().Stop("Background Music(Calm)");
             gameOverText.GetComponent<MeshRenderer>().enabled = true; // makes that text visible
             gameOverText.GetComponent<AudioSource>().enabled = true;
+
         }
     }
 }
