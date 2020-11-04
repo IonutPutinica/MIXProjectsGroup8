@@ -10471,11 +10471,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2118623212}
   maxHealth: 5
-  force: 100
+  force: 2500
   scoreBoard: {fileID: 764697570}
   head: {fileID: 473938673}
-  maxForce: 150
-  maxSpeed: 20
+  maxForce: 8500
+  maxSpeed: 25
   floatForce: 72000
 --- !u!4 &725195983
 Transform:

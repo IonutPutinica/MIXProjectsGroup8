@@ -68,11 +68,15 @@ public class EnemyScript : MonoBehaviour
             }
             
 
-            if(savedTime - Time.fixedTime <= -10)
+            if(savedTime - Time.fixedTime <= -10) // every 10 seconds
             {
-                scoreBoard.GetComponent<Scoreboard>().addScore(10);
+                scoreBoard.GetComponent<Scoreboard>().addScore(10); // add 10 to score
 
-                GetComponent<Rigidbody>().AddExplosionForce(force * 2, transform.position - transform.forward * 2, 10);
+                GetComponent<Rigidbody>().AddExplosionForce(force * 2, transform.position - transform.forward * 2, 10);//gets a forward boost
+
+                GetComponent<Rigidbody>().AddExplosionForce(force * 2, transform.position - transform.up * 1.2f, 10);
+
+                savedTime = Time.fixedTime;
             }
         }
     }
