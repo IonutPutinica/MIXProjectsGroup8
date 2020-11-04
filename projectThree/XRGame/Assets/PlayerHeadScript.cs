@@ -10,6 +10,17 @@ public class PlayerHeadScript : MonoBehaviour
     public int maxHealth;
     private int health;
 
+    public void playerWin()
+    {
+        if(health > 0)
+        {
+            gameOverText.GetComponent<MeshRenderer>().enabled = true; // makes that text visible
+            gameOverText.GetComponent<TextMesh>().text = "YOU WIN";
+            gameOverText.GetComponent<TextMesh>().color = Color.green;
+        }
+        
+    }
+
     public int damagePlayer()
     {
         health--;

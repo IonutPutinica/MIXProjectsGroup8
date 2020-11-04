@@ -1699,7 +1699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1af79fca2816e8d4fb1e1a2f14ccdd56, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1af79fca2816e8d4fb1e1a2f14ccdd56, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3146,6 +3146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AirDuct_01_Corner_snaps001
       objectReference: {fileID: 0}
+    - target: {fileID: 1143738308948984, guid: d296783be175704488ac6627ca10202c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4357272203782516, guid: d296783be175704488ac6627ca10202c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7630005
@@ -3200,7 +3204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4253608118129405727, guid: d296783be175704488ac6627ca10202c, type: 3}
       propertyPath: m_Convex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4253608118129405727, guid: d296783be175704488ac6627ca10202c, type: 3}
       propertyPath: m_IsTrigger

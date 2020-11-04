@@ -54,6 +54,10 @@ public class EnemyScript : MonoBehaviour
             GetComponent<Rigidbody>().AddExplosionForce(force * 5, player.transform.position, 100);//push the monster away from the player
 
         }
+        if (other.gameObject.CompareTag("Bonk"))
+        {
+            getHurt();
+        }
         //Debug.Log(other.gameObject.ToString());
 
     }
@@ -69,6 +73,7 @@ public class EnemyScript : MonoBehaviour
     {
         if(currentHealth <= 0)
         {
+            player.GetComponent<PlayerHeadScript>().playerWin();
             Destroy(head);
             Destroy(this);
             // do something to tell player he won and killed the baddie I guess
