@@ -12662,7 +12662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 84802485}
   soundManager: {fileID: 5805962440767837890}
-  maxHealth: 1
+  maxHealth: 3
 --- !u!33 &811208642
 MeshFilter:
   m_ObjectHideFlags: 0

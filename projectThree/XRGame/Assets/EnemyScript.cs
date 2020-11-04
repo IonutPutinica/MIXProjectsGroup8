@@ -51,7 +51,7 @@ public class EnemyScript : MonoBehaviour
             {
                 currentHealth = 0;
             }
-            GetComponent<Rigidbody>().AddExplosionForce(force * 10, player.transform.position, 100);//push the monster away from the player
+            GetComponent<Rigidbody>().AddExplosionForce(force * 5, player.transform.position, 100);//push the monster away from the player
 
         }
         //Debug.Log(other.gameObject.ToString());
