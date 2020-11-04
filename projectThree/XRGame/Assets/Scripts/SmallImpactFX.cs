@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class SmallImpactFX : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //GameObject[] smallObjects;
+
+    private void Start()
     {
-        
+        //smallObjects = GameObject.FindGameObjectsWithTag("Small");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject)
+        {
+            Debug.Log("SMALL COLLISION DETECTED!");
+            AudioManagerScript.instance.Play("SmallObjectHit");
+        }
+        /*
+        foreach(GameObject sm in smallObjects)
+        {
+            if (collision.gameObject)
+            {
+                Debug.Log("SMALL COLLISION DETECTED!");
+                AudioManagerScript.instance.Play("SmallObjectHit");
+            }
+        }
+        */
     }
 }

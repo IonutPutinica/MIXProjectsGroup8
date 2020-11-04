@@ -28,7 +28,7 @@ public class WallSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("XRI_Left_TriggerButton"))
         {
             if (!swapped)
             {
