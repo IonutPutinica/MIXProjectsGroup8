@@ -47,6 +47,18 @@ public class AudioManagerScript : MonoBehaviour
         s.source.Play();
     }
 
+    public void Stop(string name)
+    {
+        //Goes through the array of SoundScript and finds the sounds by name.
+        SoundScript s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound by Name: " + name + "was not found!");
+            return;
+        }
+        s.source.Stop();
+    }
+
     // Start is called before the first frame update
     void Start()
     {

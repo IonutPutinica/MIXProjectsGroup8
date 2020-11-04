@@ -47,10 +47,15 @@ public class EnemyScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("MainCamera"))
         {
-            getHurt();
+            if (other.gameObject.GetComponent<PlayerHeadScript>().damagePlayer() <= 0) //if the player is killed, kill the monster. Calling this function reduces the hp of the player by 1
+            {
+                currentHealth = 0;
+            }
+            GetComponent<Rigidbody>().AddExplosionForce(force * 10, player.transform.position, 100);//push the monster away from the player
+
         }
         //Debug.Log(other.gameObject.ToString());
-        
+
     }
     // Start is called before the first frame update
     void Start()
