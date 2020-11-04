@@ -42,6 +42,16 @@ public class EnemyScript : MonoBehaviour
         currentHealth--;
         scoreBoard.GetComponent<Scoreboard>().addScore(50);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("MainCamera"))
+        {
+            getHurt();
+        }
+        //Debug.Log(other.gameObject.ToString());
+        
+    }
     // Start is called before the first frame update
     void Start()
     {
