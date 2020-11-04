@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 936035bf047fbcc4da4f699c5687bb0a, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 730e974f2d902204cb307cdb624fff37, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 7339b5f2e260ecf4e98940137ecc7245, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -5560,6 +5560,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
   m_PrefabInstance: {fileID: 426427045}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &431563905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431563907}
+  - component: {fileID: 431563906}
+  m_Layer: 0
+  m_Name: SwitcherContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &431563906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431563905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd231881f5158945804c99d8dc480a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Day_dir:
+  - {fileID: 0}
+  Day_light:
+  - {fileID: 0}
+  Night_dir:
+  - {fileID: 0}
+  Night_light:
+  - {fileID: 0}
+--- !u!4 &431563907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431563905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441158965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1590216482022034, guid: af66cb781f2abe44abe97b567b10153a, type: 3}
@@ -12699,6 +12750,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1520010883613510700, guid: f80f37bf7a924ca4d90a48c6c88b3fe6, type: 3}
   m_PrefabInstance: {fileID: 869238984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &869238986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1520010883771541603, guid: f80f37bf7a924ca4d90a48c6c88b3fe6, type: 3}
+  m_PrefabInstance: {fileID: 869238984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &869238987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869238986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04c750a1966fca4e9d3eab7376ec1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialSwap1: {fileID: 2100000, guid: 3e0761ec7ccd409439ea3828d94da3e9, type: 2}
+  materialSwap2: {fileID: 2100000, guid: 1c38d813f99352f4aa2f10dd0d5237ea, type: 2}
+  original: {fileID: 869238990}
+--- !u!23 &869238990 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1520010883771541600, guid: f80f37bf7a924ca4d90a48c6c88b3fe6, type: 3}
+  m_PrefabInstance: {fileID: 869238984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &874985076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13907,7 +13983,7 @@ Transform:
   - {fileID: 1187774026}
   - {fileID: 852596860}
   m_Father: {fileID: 1369265654}
-  m_RootOrder: 34
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1000260978
 PrefabInstance:
@@ -16958,6 +17034,7 @@ Transform:
   - {fileID: 1509800521}
   - {fileID: 1152512049}
   - {fileID: 1026676734}
+  - {fileID: 981506243}
   - {fileID: 975629456}
   - {fileID: 1615928092}
   - {fileID: 480283008}
@@ -16969,7 +17046,6 @@ Transform:
   - {fileID: 1348572960}
   - {fileID: 1660763129}
   - {fileID: 14418409}
-  - {fileID: 981506243}
   - {fileID: 630500048}
   - {fileID: 1704310363}
   m_Father: {fileID: 0}
