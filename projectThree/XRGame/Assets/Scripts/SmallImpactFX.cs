@@ -15,7 +15,7 @@ public class SmallImpactFX : MonoBehaviour
     {
         if (collision.gameObject)
         {
-            Debug.Log("SMALL COLLISION DETECTED!");
+            //Debug.Log("SMALL COLLISION DETECTED!");
             AudioManagerScript.instance.Play("SmallObjectHit");
         }
         /*

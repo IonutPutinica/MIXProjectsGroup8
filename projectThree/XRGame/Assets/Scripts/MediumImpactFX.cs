@@ -9,7 +9,7 @@ public class MediumImpactFX : MonoBehaviour
     {
         if (collision.gameObject && collision.gameObject.tag != "Floor")
         {
-            Debug.Log("MEDIUM COLLISION DETECTED!");
+            //Debug.Log("MEDIUM COLLISION DETECTED!");
             AudioManagerScript.instance.Play("MediumObjectHit");
         }
     }

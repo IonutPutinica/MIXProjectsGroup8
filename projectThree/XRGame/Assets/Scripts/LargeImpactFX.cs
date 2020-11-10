@@ -8,7 +8,7 @@ public class LargeImpactFX : MonoBehaviour
     {
         if (collision.gameObject && collision.gameObject.tag != "Floor")
         {
-            Debug.Log("LARGE COLLISION DETECTED!");
+            //Debug.Log("LARGE COLLISION DETECTED!");
             AudioManagerScript.instance.Play("LargeObjectHit");
         }
     }
