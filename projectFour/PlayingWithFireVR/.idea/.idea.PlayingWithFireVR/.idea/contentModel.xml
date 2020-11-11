@@ -33,6 +33,7 @@
         <e p="Scripts" t="Include">
           <e p="ContinuousMovement.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
+          <e p="PalletsController.cs" t="Include" />
           <e p="TriggerAnimation.cs" t="Include" />
         </e>
       </e>

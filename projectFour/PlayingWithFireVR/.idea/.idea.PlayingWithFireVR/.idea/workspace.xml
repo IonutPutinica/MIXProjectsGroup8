@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba906f9-0bbe-4e55-b24f-fab56398774a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PalletsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PalletsController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_GameScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_GameScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerAnimation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ContinuousMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PalletsController.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +92,7 @@
       <workItem from="1605031140980" duration="620000" />
       <workItem from="1605042496191" duration="1785000" />
       <workItem from="1605049441541" duration="2057000" />
+      <workItem from="1605091523259" duration="398000" />
     </task>
     <servers />
   </component>

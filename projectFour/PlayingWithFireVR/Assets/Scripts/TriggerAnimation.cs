@@ -11,7 +11,7 @@ public class TriggerAnimation : MonoBehaviour
     void Start()
     {
         ParticleSystem emissionModule = fireExtinguisher.GetComponent<ParticleSystem>();
-        emissionModule.Stop();
+        //emissionModule.Stop();
     }
 
     private void OnTriggerEnter(Collider other)
