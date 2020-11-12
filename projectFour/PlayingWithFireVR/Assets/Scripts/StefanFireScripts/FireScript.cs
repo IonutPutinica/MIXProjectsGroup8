@@ -11,6 +11,11 @@ public class FireScript : MonoBehaviour
     private int particlesHit = 0;
     private ParticleSystem[] particleSystems;
 
+    public ParticleSystem externalSmoke;
+
+    public GameObject fireAlarm;
+
+
     private void OnParticleCollision(GameObject other)
     {
         if (other.CompareTag("ExtinguishAll"))
@@ -29,7 +34,9 @@ public class FireScript : MonoBehaviour
             particleSystems[i].Stop(); //disables any new particles that might be generated
             Debug.Log(particleSystems[i] + "has been stopped");
         }
-        Debug.Log("Particles should be stopped");
+        externalSmoke.Stop();
+        fireAlarm.GetComponent<AudioSource>().loop = false;
+        
     }
 
     // Start is called before the first frame update
@@ -39,8 +46,9 @@ public class FireScript : MonoBehaviour
         particleSystems = GetComponentsInChildren<ParticleSystem>(true);
         for (int i = 0; i < particleSystems.Length; i++)
         {
-            Debug.Log(particleSystems[i].gameObject.name);
+            //Debug.Log(particleSystems[i].gameObject.name);
         }
+        externalSmoke.Play();
     }
 
     // Update is called once per frame
@@ -57,12 +65,14 @@ public class FireScript : MonoBehaviour
             if (currentHealth <= fireHealth)
                 currentHealth += fireRegenRate * Time.deltaTime;
         }
-        Debug.Log("Current health: " + currentHealth);
+        //Debug.Log("Current health: " + currentHealth);
         if (currentHealth <= 0)
         {
             fireRegenRate = 0;
             //Debug.Log("Fire iz ded");
             killAllParticles();
         }
+
+        GetComponent<AudioSource>().volume = currentHealth / 100;
     }
 }
