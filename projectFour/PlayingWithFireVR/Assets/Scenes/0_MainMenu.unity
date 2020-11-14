@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 23436930}
   - component: {fileID: 23436932}
   - component: {fileID: 23436931}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 383311766}
   - component: {fileID: 383311765}
   - component: {fileID: 383311764}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 676172666}
   - component: {fileID: 676172665}
   - component: {fileID: 676172664}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,7 +2743,7 @@ GameObject:
   - component: {fileID: 1792749198}
   - component: {fileID: 1792749200}
   - component: {fileID: 1792749199}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3102,7 +3102,7 @@ GameObject:
   - component: {fileID: 1964815190}
   - component: {fileID: 1964815189}
   - component: {fileID: 1964815194}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
