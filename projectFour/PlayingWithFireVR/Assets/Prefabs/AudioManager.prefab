@@ -58,3 +58,23 @@ MonoBehaviour:
     volume: 0.3
     loop: 1
     source: {fileID: 0}
+  - name: Fire Extinguisher
+    clip: {fileID: 8300000, guid: fa328af9f4ab9cd42b4ff4c766dcfe6e, type: 3}
+    volume: 0.6
+    loop: 1
+    source: {fileID: 0}
+  - name: Pan Fire
+    clip: {fileID: 8300000, guid: f663461e3307126448fd0c5f754c94b6, type: 3}
+    volume: 0.6
+    loop: 1
+    source: {fileID: 0}
+  - name: Fire Whoosh
+    clip: {fileID: 8300000, guid: 7387dbd5cb7a1344db519bae272ac6a1, type: 3}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: Fire Alarm
+    clip: {fileID: 8300000, guid: 56f048dc5fc0ad34b9bb49915092473f, type: 3}
+    volume: 0.6
+    loop: 1
+    source: {fileID: 0}
