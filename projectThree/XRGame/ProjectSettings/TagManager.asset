@@ -9,6 +9,9 @@ TagManager:
   - Ceiling
   - FluorLight
   - Bonk
+  - LargeObj
+  - MediumObj
+  - SmallObj
   layers:
   - Default
   - TransparentFX

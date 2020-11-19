@@ -43,4 +43,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711c40bba920747409e1080066942fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Background Music(Calm)
+    clip: {fileID: 8300000, guid: 03bfd7d22338c4e4db044e923873f4ec, type: 3}
+    volume: 0.3
+    loop: 1
+    priority: 100
+    spatialBlend: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: LargeObjectHit
+    clip: {fileID: 8300000, guid: 09c4acdb130de4845b8eb54f58fd7d00, type: 3}
+    volume: 0.6
+    loop: 0
+    priority: 100
+    spatialBlend: 1
+    minDistance: 5
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: BackgroundMusic(Dead)
+    clip: {fileID: 8300000, guid: c851927326b7342479c8192abdfd7037, type: 3}
+    volume: 0.3
+    loop: 1
+    priority: 100
+    spatialBlend: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
