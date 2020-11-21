@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1546723075460571774}
-  - component: {fileID: 2039647045}
   - component: {fileID: 1546723075460571775}
   m_Layer: 0
   m_Name: AudioManager
@@ -32,14 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &2039647045
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546723075460571772}
-  m_Enabled: 1
 --- !u!114 &1546723075460571775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +46,7 @@ MonoBehaviour:
   sounds:
   - name: Background Music
     clip: {fileID: 8300000, guid: 956ad2f73332544fd87365087825cc4f, type: 3}
-    volume: 0.3
+    volume: 0.4
     loop: 1
     source: {fileID: 0}
   - name: Fire Extinguisher
