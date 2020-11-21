@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class UIcontrols : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private FireScenario fireController;
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+        fireController = GameObject.FindObjectOfType<FireScenario>();
+    }
+    public void BeginScenario()
+    {
+        StartCoroutine(fireController.StartFire());
+    }
+    public void EndScenario()
+    {
+        //do nothing for now
     }
 }

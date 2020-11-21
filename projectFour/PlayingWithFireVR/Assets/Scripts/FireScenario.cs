@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FireScenario : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ParticleSystem smokeParticle;
+    public ParticleSystem fireParticle;
+    public GameObject fireSource;
 
-    // Update is called once per frame
-    void Update()
+    private ParticleSystem smokeObject;
+    private ParticleSystem fireObject;
+
+    public IEnumerator StartFire()
     {
-        
+        Debug.Log("FireStarted.");
+        yield return null;
     }
+        
 }
