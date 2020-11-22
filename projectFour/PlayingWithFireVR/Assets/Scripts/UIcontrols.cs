@@ -14,9 +14,11 @@ public class UIcontrols : MonoBehaviour
     {
         StartCoroutine(fireController.StartFire());
     }
+    /*
     public void EndScenario()
     {
         //Temporary functionality
         StartCoroutine(fireController.StopFire());
     }
+    */
 }
