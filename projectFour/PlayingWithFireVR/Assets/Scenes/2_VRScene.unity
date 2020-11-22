@@ -6084,13 +6084,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1181508013}
+        m_TargetAssemblyTypeName: UIcontrols, Assembly-CSharp
+        m_MethodName: EndScenario
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7238,7 +7238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef207bdc3c499c54088cdaabf93e3d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smokeParticle: {fileID: 0}
+  smokeParticle: {fileID: 1966453737789103704, guid: eedc9efcf576fd74da6e198d4ccfad73,
+    type: 3}
   fireParticle: {fileID: 19800000, guid: a817de05addd7b64faa73b34c74013ce, type: 3}
   fireSource: {fileID: 893473083}
 --- !u!114 &1181508013

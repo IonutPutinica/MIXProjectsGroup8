@@ -14,7 +14,18 @@ public class FireScenario : MonoBehaviour
     public IEnumerator StartFire()
     {
         Debug.Log("FireStarted.");
+        smokeObject = Instantiate(smokeParticle, fireSource.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(3f);
+        fireObject = Instantiate(fireParticle, fireSource.transform.position, Quaternion.identity);
+        //might need to parent these gameobjects to the pan.
+
+        smokeObject.Stop();
+        Destroy(smokeObject);
+    }
+    public IEnumerator StopFire()
+    {
+        fireObject.Stop();
+        Destroy(fireObject);
         yield return null;
     }
-        
 }

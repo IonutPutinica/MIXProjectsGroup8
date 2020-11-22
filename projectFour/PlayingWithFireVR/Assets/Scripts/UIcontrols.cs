@@ -16,6 +16,7 @@ public class UIcontrols : MonoBehaviour
     }
     public void EndScenario()
     {
-        //do nothing for now
+        //Temporary functionality
+        StartCoroutine(fireController.StopFire());
     }
 }
