@@ -11,21 +11,23 @@ public class FireScenario : MonoBehaviour
     private ParticleSystem smokeObject;
     private ParticleSystem fireObject;
 
-    public IEnumerator StartFire()
+    public IEnumerator StartFire()  //can only start the fire if it is stopped
     {
         Debug.Log("FireStarted.");
         smokeObject = Instantiate(smokeParticle, fireSource.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(3f);
-        fireObject = Instantiate(fireParticle, fireSource.transform.position, Quaternion.identity);
+        //fireObject = Instantiate(fireParticle, fireSource.transform.position, Quaternion.identity);
         //might need to parent these gameobjects to the pan.
+        FindObjectOfType<FireScript>().StartPanFire();
 
         smokeObject.Stop();
         Destroy(smokeObject);
     }
-    public IEnumerator StopFire()
+    public IEnumerator StopFire() // can only stop if the fire is already started
     {
         fireObject.Stop();
-        Destroy(fireObject);
+        //Destroy(fireObject);
+        FindObjectOfType<FireScript>().StopPanFire();
         yield return null;
     }
 }
