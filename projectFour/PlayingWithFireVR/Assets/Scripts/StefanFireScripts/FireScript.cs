@@ -67,6 +67,7 @@ public class FireScript : MonoBehaviour
     {
         fireAlarm.GetComponent<AudioSource>().Play();
         fireAlarm.GetComponent<AudioSource>().loop = true;
+        //AudioManager.instance.Play("");
     }
 
     // Start is called before the first frame update
@@ -105,13 +106,13 @@ public class FireScript : MonoBehaviour
 
     void Start()
     {
-        currentHealth = fireHealth;                                             //set the current health to whatever was chosen in the editor as the hp of the fire
-        particleSystems = GetComponentsInChildren<ParticleSystem>(true);        //get all the particle systems that are sired by the root (the object with this script)
+        currentHealth = fireHealth;   //set the current health to whatever was chosen in the editor as the hp of the fire
+        particleSystems = GetComponentsInChildren<ParticleSystem>(true);  //get all the particle systems that are sired by the root (the object with this script)
         for (int i = 0; i < particleSystems.Length; i++)
         {
             //Debug.Log(particleSystems[i].gameObject.name);
         }
-        if (enabledOnStart)                                                     //this wont be used except for testing
+        if (enabledOnStart) //this wont be used except for testing
         {
             startAllParticles();
         }
