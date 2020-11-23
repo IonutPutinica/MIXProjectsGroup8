@@ -87,6 +87,22 @@ public class FireScript : MonoBehaviour
             Invoke("ToggleThePanFire", 0);
     }
 
+    public void StartPanFire()
+    {
+        if(currentHealth <= 0)
+        {
+            test = true;
+        }
+    }
+
+    public void StopPanFire()
+    {
+        if (currentHealth > 0)
+        {
+            test = true;
+        }
+    }
+
     void Start()
     {
         currentHealth = fireHealth;                                             //set the current health to whatever was chosen in the editor as the hp of the fire
