@@ -1,17 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool gamePaused = false;
     public GameObject pauseMenuUI;
+    //private Button pauseButton;
 
-    // Update is called once per frame
     void Update()
     {
-        //how to detect pausebutton tap/click
+        //how to stop constant check
+        if(pauseMenuUI.activeSelf)
+        {
+            Debug.Log("ACTIVE!!!");
+            if (gamePaused)
+            {
+                Debug.Log("NOT PAUSED!!!");
+                Resume();
+            }
+            else 
+            {
+                Debug.Log("PAUSED!!!");
+                Pause();
+            }
+        }
     }
     public void Resume()
     {
@@ -25,6 +40,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         gamePaused = true;
     }
+    /*
     public void ReturnToMainMenu()
     {
         Time.timeScale = 1f;
@@ -33,6 +49,7 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Quit Game");
-        Application.Quit();
+        //Application.Quit();
     }
+    */
 }

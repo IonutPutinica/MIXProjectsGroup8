@@ -22,7 +22,7 @@ public class EnemyMovement : MonoBehaviour
 
     public IEnumerator Search()
     {
-        Debug.DrawRay(transform.position, transform.forward * 50, Color.red);
+        Debug.DrawRay(transform.position, transform.forward * -50, Color.red);
         var oscillate = StartCoroutine(Oscillate());
         while (!enemyShoot.FoundPlayer())
         {
