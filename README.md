@@ -55,3 +55,7 @@ Paintings Free - https://assetstore.unity.com/packages/3d/props/interior/paintin
 
 Start Menu by Brackeys - https://www.youtube.com/watch?v=zc8ac_qUXQY <br>
 World Space UI by Unity - https://www.youtube.com/watch?v=Mzt1rEEdeOI <br>
+
+Fire Information:
+https://www.nfpa.org/Public-Education/Fire-causes-and-risks/Top-fire-causes/Cooking
+https://www.marsden-fire-safety.co.uk/resources/fire-extinguishers
