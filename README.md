@@ -10,7 +10,8 @@ Cartoon FX Free - https://assetstore.unity.com/packages/vfx/particles/cartoon-fx
 
 Shooting with Raycasts by Brackeys - https://www.youtube.com/watch?v=THnivyG0Mvo <br>
 
-- missing pause menu tutorial source
+Main Menu Tutorial/Course: https://www.youtube.com/watch?v=zc8ac_qUXQY&t=681s <br>
+
 ### Project 2 : AR Core
 Living Birds Asset Pack - https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649 <br>
 Youtube Tutorials for Living Birds: <br>
@@ -39,8 +40,8 @@ Music from Bensound - https://www.bensound.com/royalty-free-music/track/the-elev
 Turning Multiple Lights On or Off - https://forum.unity.com/threads/turning-on-off-multiple-lights-at-once.165717/ <br>
 Changing a Mesh Renderer - https://forum.unity.com/threads/changing-a-material-at-runtime-on-a-meshrenderer.540890/ <br>
 
-- missing halloween sources
-- missing enemy head sources
+Halloween props - https://assetstore.unity.com/packages/3d/environments/fantasy/free-cartoon-halloween-pack-mobile-vr-45896 <br>
+
 ### Project 4 : VR with Unity Interaction Toolkit
 Unity Particle Pack - https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325 <br>
 WarFX - https://assetstore.unity.com/packages/vfx/particles/war-fx-5669 <br>
