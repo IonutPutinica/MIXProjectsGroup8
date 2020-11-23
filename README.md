@@ -17,6 +17,14 @@ Youtube Tutorials for Living Birds: <br>
 Part1 - https://www.youtube.com/watch?v=BqiyyMDvc_k <br>
 Part2 - https://www.youtube.com/watch?v=i-tfGeVMoa8 <br>
 
+Cardinal Facts - https://www.nationalgeographic.com/animals/birds/c/cardinal/ <br>
+Goldfinch Facts - https://www.beautyofbirds.com/goldfinch.html <br>
+https://www.beautyofbirds.com/americangoldfinches.htm <br>
+Robin - https://www.allaboutbirds.org/guide/American_Robin/overview <br>
+https://en.wikipedia.org/wiki/American_robin <br>
+https://en.wikipedia.org/wiki/European_robin <br>
+Bluejay - https://www.allaboutbirds.org/guide/Blue_Jay/lifehistory <br>
+
 ### Project 3 : VR with Unity Interaction Toolkit
 Sources for Lightmap Switcher: <br>
 https://forum.unity.com/threads/how-to-create-lightmap-for-day-and-for-night-and-switch-them-in-runtime.319920/ <br>
