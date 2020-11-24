@@ -10672,6 +10672,41 @@ PrefabInstance:
       propertyPath: m_IgnoreReversedGraphics
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1414445558}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FireExtinguisher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492874032226143362, guid: 71f9863140b39a148bbcd0ba9c07ed69,
+        type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4965325876063010692, guid: 71f9863140b39a148bbcd0ba9c07ed69,
         type: 3}
       propertyPath: m_Name
@@ -10810,12 +10845,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8579650852055222470, guid: 71f9863140b39a148bbcd0ba9c07ed69, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 71f9863140b39a148bbcd0ba9c07ed69, type: 3}
---- !u!1 &1414445556 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4965325876063010692, guid: 71f9863140b39a148bbcd0ba9c07ed69,
-    type: 3}
-  m_PrefabInstance: {fileID: 1414445555}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1414445557 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 515721210315249581, guid: 71f9863140b39a148bbcd0ba9c07ed69,
@@ -10828,66 +10857,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1414445555}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414445556}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef14e922c0a0c954e89518832432e930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1414445559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414445556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2125597156}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_OnFirstHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExit:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1414445558}
-        m_TargetAssemblyTypeName: FireExtinguisher, Assembly-CSharp
-        m_MethodName: toggle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CustomReticle: {fileID: 0}
 --- !u!1 &1416602886
 GameObject:
   m_ObjectHideFlags: 0
