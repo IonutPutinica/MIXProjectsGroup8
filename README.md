@@ -50,6 +50,7 @@ Effect Textures and Prefabs - https://assetstore.unity.com/packages/vfx/particle
 Free Music Tracks for Games(Chunky Monkey) - https://assetstore.unity.com/packages/audio/music/free-music-tracks-for-games-156413 <br>
 
 SNAPS Prototype Office - https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490 <br>
+Christmas Props - https://assetstore.unity.com/packages/3d/props/interior/christmas-toys-106607 <br>
 Too Many Items: Kitchen Propts - https://assetstore.unity.com/packages/3d/props/too-many-items-kitchen-props-127635 <br>
 Food and Kitchen Props Pack - https://assetstore.unity.com/packages/3d/props/food-and-kitchen-props-pack-85050 <br>
 Paintings Free - https://assetstore.unity.com/packages/3d/props/interior/paintings-free-44185#content <br>
