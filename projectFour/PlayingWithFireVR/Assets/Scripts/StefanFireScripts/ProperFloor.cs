@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 [ExecuteInEditMode]
@@ -25,9 +22,9 @@ public class ProperFloor : MonoBehaviour
 
     private void spawnGrid()
     {
-        for(int x=0;x< sizeX; x++)
+        for (int x = 0; x < sizeX; x++)
         {
-            for(int y = 0; y < sizeY; y++)
+            for (int y = 0; y < sizeY; y++)
             {
                 Vector3 spawnPosition = new Vector3(x * spacingWithSize, 0, y * spacingWithSize) + transform.position;
                 PickAndSpawn(spawnPosition, transform.rotation);
@@ -45,9 +42,9 @@ public class ProperFloor : MonoBehaviour
 
     private void deletePreviousFloors()
     {
-        for(int i=0;i< floor.Length; i++)
+        for (int i = 0; i < floor.Length; i++)
         {
-              DestroyImmediate(floor[i]);
+            DestroyImmediate(floor[i]);
         }
     }
 

@@ -36,7 +36,7 @@ public class FireScript : MonoBehaviour
         for (int i = 0; i < particleSystems.Length; i++)
         {
             particleSystems[i].Stop(); //disables any new particles that might be generated
-            Debug.Log(particleSystems[i] + "has been stopped");
+            //Debug.Log(particleSystems[i] + "has been stopped");
         }
         externalSmoke.Stop(); // also stop the external particle system of course
         //fireAlarm.GetComponent<AudioSource>().loop = false; //hm, maybe shouldn't kill the fire alarm instantly. But to be merciful on the ears of the player, it must be done.
@@ -50,7 +50,7 @@ public class FireScript : MonoBehaviour
         for (int i = 0; i < particleSystems.Length; i++)
         {
             particleSystems[i].Play(); //starts all particle effects
-            Debug.Log(particleSystems[i] + "has been started");
+            //Debug.Log(particleSystems[i] + "has been started");
         }
         externalSmoke.Play();
 
@@ -79,7 +79,7 @@ public class FireScript : MonoBehaviour
 
     public void TogglePanFireAfterxSeconds(int x)
     {
-        if(x > 0)       //don't know what would happen if you invoke with a negative time. Don't wanna know... time travel ?
+        if (x > 0)       //don't know what would happen if you invoke with a negative time. Don't wanna know... time travel ?
         {
             Invoke("ToggleThePanFire", x);
         }
@@ -90,7 +90,7 @@ public class FireScript : MonoBehaviour
 
     public void StartPanFire()
     {
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             test = true;
         }
