@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6259125961496160553
 Transform:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     maxDistance: 500
     source: {fileID: 0}
   - name: BackgroundMusic(Dead)
-    clip: {fileID: 8300000, guid: c851927326b7342479c8192abdfd7037, type: 3}
+    clip: {fileID: 8300000, guid: 049abaaa0b6350b4181c080313e27ec1, type: 3}
     volume: 0.3
     loop: 1
     priority: 100
