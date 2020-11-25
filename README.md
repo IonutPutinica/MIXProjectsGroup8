@@ -61,3 +61,13 @@ World Space UI by Unity - https://www.youtube.com/watch?v=Mzt1rEEdeOI <br>
 Fire Information: <br>
 https://www.nfpa.org/Public-Education/Fire-causes-and-risks/Top-fire-causes/Cooking <br>
 https://www.marsden-fire-safety.co.uk/resources/fire-extinguishers
+
+
+
+
+### Youtube Video Demonstrations
+
+Assignment 1: https://www.youtube.com/watch?v=SCOkk7iAIQE&feature=youtu.be <br>
+Assignment 2: https://youtu.be/jqCGc3GZj7w <br>
+Assignment 3: https://youtu.be/kmrNUmLiSMo <br>
+Assignment 4: https://youtu.be/_qTb0C2uz4o <br>
