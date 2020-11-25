@@ -1,11 +1,11 @@
 # MIXProjectsGroup8
 
 ## MIX Group Member List
-Ionel Putinica
-Andrei Mungiu
-Stefan Horvath
-Amahdya Delkescamp
-Angel Petrov
+Ionel Putinica 266123 <br>
+Andrei Mungiu 273473 <br>
+Stefan Horvath 253724 <br>
+Amahdya Delkescamp 256523 <br>
+Angel Petrov 266489 <br>
 
 ## MIX Class Dev Blog
 https://horvathstefandanie.wixsite.com/sillyname
