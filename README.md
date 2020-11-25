@@ -19,6 +19,7 @@ Assignment 4: https://youtu.be/_qTb0C2uz4o <br>
 
 ## Sources for Project Assets
 ### Project 1 : Vuforia
+#### Folder: TestLogicVR
 https://stackoverflow.com/questions/23025706/unity3d-rotate-back-forth-with-limited-angles <br>
 
 Toon Spaceships - https://assetstore.unity.com/packages/3d/characters/toon-spaceships-102417 <br>
@@ -45,6 +46,7 @@ Bluejay - https://www.allaboutbirds.org/guide/Blue_Jay/lifehistory <br>
 Crow - https://en.wikipedia.org/wiki/Talking_bird#Corvids <br>
 
 ### Project 3 : VR with Unity Interaction Toolkit
+#### Folder: XR Game
 Sources for Lightmap Switcher: <br>
 https://forum.unity.com/threads/how-to-create-lightmap-for-day-and-for-night-and-switch-them-in-runtime.319920/ <br>
 https://wiki.unity3d.com/index.php/LightMapSwitcher <br>
