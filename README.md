@@ -1,6 +1,13 @@
 # MIXProjectsGroup8
 
-## MIX Class Blog
+## MIX Group Member List
+Ionel Putinica
+Andrei Mungiu
+Stefan Horvath
+Amahdya Delkescamp
+Angel Petrov
+
+## MIX Class Dev Blog
 https://horvathstefandanie.wixsite.com/sillyname
 
 ## Youtube Video Demonstrations
