@@ -1,5 +1,8 @@
 # MIXProjectsGroup8
 
+## MIX Class Blog
+https://horvathstefandanie.wixsite.com/sillyname
+
 ## Youtube Video Demonstrations
 
 Assignment 1: https://www.youtube.com/watch?v=SCOkk7iAIQE&feature=youtu.be <br>
