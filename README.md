@@ -29,6 +29,7 @@ Cartoon FX Free - https://assetstore.unity.com/packages/vfx/particles/cartoon-fx
 Shooting with Raycasts by Brackeys - https://www.youtube.com/watch?v=THnivyG0Mvo <br>
 
 Main Menu Tutorial/Course: https://www.youtube.com/watch?v=zc8ac_qUXQY&t=681s <br>
+Pause Menu by Brackeys - https://www.youtube.com/watch?v=JivuXdrIHK0 <br>
 
 ### Project 2 : AR Core
 Living Birds Asset Pack - https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649 <br>
