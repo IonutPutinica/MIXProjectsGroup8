@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="872665df-4317-4f26-a0cb-0ec6e5ef7abd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ContinuousMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectThree/XRGame/.idea/.idea.XRGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +33,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/UI/TrackedDeviceEventData.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ContinuousMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FireScenario.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" />
       </list>
     </option>
   </component>
@@ -54,6 +56,13 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="RiderCSharpLiveTemplatesSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -86,6 +95,11 @@
       <updated>1605360761369</updated>
       <workItem from="1605360789082" duration="70000" />
       <workItem from="1605361086516" duration="66000" />
+      <workItem from="1608590820155" duration="468000" />
+      <workItem from="1608591440553" duration="249000" />
+      <workItem from="1608591717343" duration="730000" />
+      <workItem from="1608592505331" duration="838000" />
+      <workItem from="1609506299832" duration="9089000" />
     </task>
     <servers />
   </component>
@@ -108,5 +122,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1459" y="185" key="SettingsEditor" timestamp="1609515271984">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609515271984" />
+    <state x="-967" y="0" width="974" height="1087" key="dock-window-1" timestamp="1609513941821">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-967" y="0" width="974" height="1087" key="dock-window-1/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609513941821" />
+    <state x="-1297" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1609515264562">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1297" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609515264562" />
   </component>
 </project>
