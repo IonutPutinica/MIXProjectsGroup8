@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="872665df-4317-4f26-a0cb-0ec6e5ef7abd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2_VRScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2_VRScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,8 @@
       <workItem from="1608591440553" duration="249000" />
       <workItem from="1608591717343" duration="730000" />
       <workItem from="1608592505331" duration="838000" />
-      <workItem from="1609506299832" duration="9089000" />
+      <workItem from="1609506299832" duration="10287000" />
+      <workItem from="1609619805386" duration="54000" />
     </task>
     <servers />
   </component>
@@ -128,10 +127,10 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1459" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609515271984" />
-    <state x="-967" y="0" width="974" height="1087" key="dock-window-1" timestamp="1609513941821">
+    <state x="-967" y="0" width="974" height="1087" key="dock-window-1" timestamp="1609619858518">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-967" y="0" width="974" height="1087" key="dock-window-1/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609513941821" />
+    <state x="-967" y="0" width="974" height="1087" key="dock-window-1/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609619858518" />
     <state x="-1297" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1609515264562">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
