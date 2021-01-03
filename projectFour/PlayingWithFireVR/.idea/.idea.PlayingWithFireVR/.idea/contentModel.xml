@@ -83,20 +83,20 @@
             </e>
           </e>
         </e>
-        <e p="ContinuousMovement.cs" t="Include" />
-        <e p="EnableFireExtinguisher.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
+          <e p="ContinuousMovement.cs" t="Include" />
+          <e p="EnableFireExtinguisher.cs" t="Include" />
+          <e p="FireAlarmSoundFX.cs" t="Include" />
+          <e p="FireExtinguisher.cs" t="Include" />
+          <e p="FireFX.cs" t="Include" />
           <e p="FireScenario.cs" t="Include" />
+          <e p="FireScript.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
           <e p="MainMenuController.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
           <e p="StefanFireScripts" t="Include">
-            <e p="FireExtinguisher.cs" t="Include" />
-            <e p="FireScript.cs" t="Include" />
             <e p="ProperFloor.cs" t="Include" />
-            <e p="TestQBE.cs" t="Include" />
-            <e p="testUI.cs" t="Include" />
           </e>
           <e p="UIcontrols.cs" t="Include" />
         </e>
