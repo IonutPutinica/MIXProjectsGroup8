@@ -16,21 +16,18 @@ public class ContinuousMovement : MonoBehaviour
     private XRRig rig;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         character = GetComponent<CharacterController>();
         rig = GetComponent<XRRig>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
     }
 
-    private void FixedUpdate()
-    {
+    private void FixedUpdate() {
         CapsuleFollowHeadset();
 
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
@@ -46,19 +43,20 @@ public class ContinuousMovement : MonoBehaviour
         character.Move(Vector3.up * (fallingSpeed * Time.fixedDeltaTime));
     }
 
-    void CapsuleFollowHeadset()
-    {
+    void CapsuleFollowHeadset() {
         character.height = rig.cameraInRigSpaceHeight + additionalHeight;
         Vector3 capsuleCenter = transform.InverseTransformPoint(rig.cameraGameObject.transform.position);
         character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.y);
     }
 
-    bool CheckIfGrounded()
-    {
+    bool CheckIfGrounded() {
         Vector3 rayStart = transform.TransformPoint(character.center);
         float raylength = character.center.y + 0.01f;
-        bool hasHit = Physics.SphereCast(rayStart, character.radius, Vector3.down, out RaycastHit hitinfo, raylength,
-            groundLayer);
+        bool hasHit = Physics.SphereCast(
+            rayStart, character.radius, 
+            Vector3.down, 
+            out RaycastHit hitinfo, 
+            raylength, groundLayer);
         return hasHit;
     }
 }

@@ -14,10 +14,8 @@ public class FireScript : MonoBehaviour
     private AudioSource _audioSource;
     private AudioSource _audioSource1;
 
-    private void OnParticleCollision(GameObject other)
-    {
-        if (other.CompareTag("ExtinguishAll"))
-        {
+    private void OnParticleCollision(GameObject other) {
+        if (other.CompareTag("ExtinguishAll")) {
             fireTookDamage = true;
             particleCollisions++;
         }
@@ -31,14 +29,12 @@ public class FireScript : MonoBehaviour
         }
     }
 
-    private void StopFireAlarm()
-    {
+    private void StopFireAlarm() {
         _audioSource.loop = false;
     }
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         _audioSource1 = GetComponent<AudioSource>();
         _audioSource = fireAlarm.GetComponent<AudioSource>();
         currentHealth = fireHealth;
@@ -46,27 +42,21 @@ public class FireScript : MonoBehaviour
     }
     
     // Update is called once per frame
-    void Update()
-    {
-        if (fireTookDamage)
-        {
+    void Update() {
+        if (fireTookDamage) {
             currentHealth -= damageNumberPerParticle * particleCollisions * Time.deltaTime;
             fireTookDamage = false;
             particleCollisions = 0;
             
-            if (currentHealth <= 0)
-            {
+            if (currentHealth <= 0) {
                 StopPanParticleSystems();
                 externalSmoke.Stop();
                 Invoke("StopFireAlarm", 5);
             }
         }
-        else
-        {
-            if(externalSmoke.isPlaying && currentHealth <= fireHealth)
+        else if (externalSmoke.isPlaying && currentHealth <= fireHealth)
                 currentHealth += fireRegenRate * Time.deltaTime;
-        }
-
+        
         _audioSource1.volume = currentHealth / 120;
     }
 }

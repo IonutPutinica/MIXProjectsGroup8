@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="872665df-4317-4f26-a0cb-0ec6e5ef7abd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2_VRScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2_VRScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StefanFireScripts/FireScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/UI/TrackedDeviceEventData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,6 +100,7 @@
       <workItem from="1608592505331" duration="838000" />
       <workItem from="1609506299832" duration="10287000" />
       <workItem from="1609619805386" duration="54000" />
+      <workItem from="1609670833379" duration="391000" />
     </task>
     <servers />
   </component>
