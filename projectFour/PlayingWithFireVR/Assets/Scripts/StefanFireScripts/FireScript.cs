@@ -11,6 +11,8 @@ public class FireScript : MonoBehaviour
     private ParticleSystem[] panParticleSystems;
     public ParticleSystem externalSmoke;               // ambient smoke
     public GameObject fireAlarm;
+    private AudioSource _audioSource;
+    private AudioSource _audioSource1;
 
     private void OnParticleCollision(GameObject other)
     {
@@ -31,12 +33,14 @@ public class FireScript : MonoBehaviour
 
     private void StopFireAlarm()
     {
-        fireAlarm.GetComponent<AudioSource>().loop = false;
+        _audioSource.loop = false;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        _audioSource1 = GetComponent<AudioSource>();
+        _audioSource = fireAlarm.GetComponent<AudioSource>();
         currentHealth = fireHealth;
         panParticleSystems = GetComponentsInChildren<ParticleSystem>(true); // get all "Pan" particle systems
     }
@@ -63,6 +67,6 @@ public class FireScript : MonoBehaviour
                 currentHealth += fireRegenRate * Time.deltaTime;
         }
 
-        GetComponent<AudioSource>().volume = currentHealth / 120;
+        _audioSource1.volume = currentHealth / 120;
     }
 }
