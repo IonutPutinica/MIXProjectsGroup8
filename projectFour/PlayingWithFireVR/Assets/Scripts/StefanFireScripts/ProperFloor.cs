@@ -48,10 +48,6 @@ public class ProperFloor : MonoBehaviour
         }
     }
 
-    void Awake()
-    {
-    }
-
     private void runScript()
     {
         floorPieces = 0;
@@ -67,12 +63,6 @@ public class ProperFloor : MonoBehaviour
     private void resetArray()
     {
         floor = new GameObject[100];
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
     }
 
     // Update is called once per frame

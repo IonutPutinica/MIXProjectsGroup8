@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0b7daa-a8db-4f6e-bd5b-786dadc63ebf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../projectFour/PlayingWithFireVR/Assets/Scripts/HandPresence.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projectFour/PlayingWithFireVR/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectFour/PlayingWithFireVR/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectFour/PlayingWithFireVR/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectFour/PlayingWithFireVR/.idea/.idea.PlayingWithFireVR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectOne/TestLogicVR/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectOne/TestLogicVR/QCAR/somedata16" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XRGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../projectTwo/MarkerLessARtest/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +112,7 @@
       <workItem from="1603973882509" duration="1461000" />
       <workItem from="1605360741843" duration="112000" />
       <workItem from="1605361046533" duration="107000" />
+      <workItem from="1609696439348" duration="675000" />
     </task>
     <servers />
   </component>

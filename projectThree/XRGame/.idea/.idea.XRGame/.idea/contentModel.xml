@@ -40,6 +40,7 @@
           <e p="AudioManagerScript.cs" t="Include" />
           <e p="ContinuousMovement.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
+          <e p="ImpactSoundFX.cs" t="Include" />
           <e p="LargeImpactFX.cs" t="Include" />
           <e p="MainMenuManager.cs" t="Include" />
           <e p="MediumImpactFX.cs" t="Include" />
